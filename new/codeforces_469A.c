@@ -22,7 +22,7 @@ int main()
     }
 
     for(int i = 1; i <= n; i++){
-        if(ara[i] == 0){
+        if(ara[i] != 1){
             printf("Oh, my keyboard!\n");
             return 0;
         }
